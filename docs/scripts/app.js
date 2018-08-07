@@ -52,6 +52,7 @@
     var label = selected.textContent;
     // TODO init the app.selectedCities array here
     app.getForecast(key, label);
+
     // TODO push the selected city to the array and save here
     app.toggleAddDialog(false);
   });
@@ -303,7 +304,7 @@
     }
   };
   // TODO uncomment line below to test app with fake data
-  //app.updateForecastCard(initialWeatherForecast);
+  app.updateForecastCard(initialWeatherForecast);
 
   // TODO add startup code here
 
