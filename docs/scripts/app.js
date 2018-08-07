@@ -270,7 +270,7 @@
    */
   var initialWeatherForecast = {
     key: '2459115',
-    label: 'New York, NY',
+    label: 'Tiruchirappalli, TPJ',
     created: '2016-07-22T01:00:00Z',
     channel: {
       astronomy: {
@@ -280,7 +280,7 @@
       item: {
         condition: {
           text: "Windy",
-          date: "Thu, 21 Jul 2016 09:00 PM EDT",
+          date: "Thu, 07 Aug 2018 09:00 PM IST",
           temp: 56,
           code: 24
         },
