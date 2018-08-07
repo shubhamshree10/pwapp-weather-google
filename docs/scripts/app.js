@@ -50,15 +50,12 @@
     var selected = select.options[select.selectedIndex];
     var key = selected.value;
     var label = selected.textContent;
-    // TODO init the app.selectedCities array here
-    if(!app.selectedCities){
-      app.selectedCities = [] ;
+    if (!app.selectedCities) {
+      app.selectedCities = [];
     }
     app.getForecast(key, label);
-
-    // TODO push the selected city to the array and save here
     app.selectedCities.push({key: key, label: label});
-    app.selectedCities();
+    app.saveSelectedCities();
     app.toggleAddDialog(false);
   });
 
@@ -208,6 +205,7 @@
     var selectedCities = JSON.stringify(app.selectedCities);
     localStorage.selectedCities = selectedCities;
   };
+
   app.getIconClass = function(weatherCode) {
     // Weather codes: https://developer.yahoo.com/weather/documentation.html#codes
     weatherCode = parseInt(weatherCode);
@@ -279,7 +277,7 @@
    */
   var initialWeatherForecast = {
     key: '2459115',
-    label: 'Tiruchirappalli, TPJ',
+    label: 'New York, NY',
     created: '2016-07-22T01:00:00Z',
     channel: {
       astronomy: {
@@ -289,7 +287,7 @@
       item: {
         condition: {
           text: "Windy",
-          date: "Thu, 07 Aug 2018 09:00 PM IST",
+          date: "Thu, 21 Jul 2016 09:00 PM EDT",
           temp: 56,
           code: 24
         },
@@ -313,10 +311,9 @@
     }
   };
   // TODO uncomment line below to test app with fake data
-  app.updateForecastCard(initialWeatherForecast);
+  // app.updateForecastCard(initialWeatherForecast);
 
-  // TODO add startup code here
-/************************************************************************
+  /************************************************************************
    *
    * Code required to start the app
    *
@@ -327,6 +324,7 @@
    *   SimpleDB (https://gist.github.com/inexorabletash/c8069c042b734519680c)
    ************************************************************************/
 
+  // TODO add startup code here
   app.selectedCities = localStorage.selectedCities;
   if (app.selectedCities) {
     app.selectedCities = JSON.parse(app.selectedCities);
@@ -345,5 +343,6 @@
     ];
     app.saveSelectedCities();
   }
+
   // TODO add service worker code here
 })();
