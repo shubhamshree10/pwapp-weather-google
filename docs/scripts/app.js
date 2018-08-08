@@ -14,7 +14,7 @@
 
 
 (function() {
-  'use strict';
+  'use strict'; 
 
   var app = {
     isLoading: true,
