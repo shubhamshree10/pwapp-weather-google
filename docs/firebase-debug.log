@@ -1,0 +1,128 @@
+[debug] [2018-08-11T18:35:59.694Z] ----------------------------------------------------------------------
+[debug] [2018-08-11T18:35:59.695Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shubham Shree\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-11T18:35:59.698Z] CLI Version:   4.0.3
+[debug] [2018-08-11T18:35:59.698Z] Platform:      win32
+[debug] [2018-08-11T18:35:59.698Z] Node Version:  v8.9.4
+[debug] [2018-08-11T18:35:59.698Z] Time:          Sun Aug 12 2018 00:05:59 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:35:59.698Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-11T18:35:59.712Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-11T18:35:59.713Z] > authorizing via signed-in user
+[debug] [2018-08-11T18:35:59.716Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pwapp-g  
+  
+ Sun Aug 12 2018 00:05:59 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:36:00.798Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T18:36:00.799Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pwapp-g/tokens  
+  
+ Sun Aug 12 2018 00:06:00 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:36:01.727Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T18:36:01.727Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwapp-g  
+  
+ Sun Aug 12 2018 00:06:01 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:36:03.753Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Shubham Shree\Documents\your-first-pwapp-master\docs'...
+[info] 
+[debug] [2018-08-11T18:36:03.765Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/109533247536/clients/_:getWebAppConfig  
+  
+ Sun Aug 12 2018 00:06:03 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:36:07.369Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: app
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-08-11T18:40:54.544Z] ----------------------------------------------------------------------
+[debug] [2018-08-11T18:40:54.544Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shubham Shree\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-11T18:40:54.547Z] CLI Version:   4.0.3
+[debug] [2018-08-11T18:40:54.547Z] Platform:      win32
+[debug] [2018-08-11T18:40:54.547Z] Node Version:  v8.9.4
+[debug] [2018-08-11T18:40:54.547Z] Time:          Sun Aug 12 2018 00:10:54 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:40:54.547Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-11T18:40:54.560Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-11T18:40:54.561Z] > authorizing via signed-in user
+[debug] [2018-08-11T18:40:54.564Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pwapp-g  
+  
+ Sun Aug 12 2018 00:10:54 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:40:55.767Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T18:40:55.768Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pwapp-g/tokens  
+  
+ Sun Aug 12 2018 00:10:55 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:41:00.490Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T18:41:00.491Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwapp-g  
+  
+ Sun Aug 12 2018 00:11:00 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:41:05.503Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Shubham Shree\Documents\your-first-pwapp-master\docs'...
+[info] 
+[debug] [2018-08-11T18:41:05.507Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/109533247536/clients/_:getWebAppConfig  
+  
+ Sun Aug 12 2018 00:11:05 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:41:06.382Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: app
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-08-11T18:45:33.780Z] ----------------------------------------------------------------------
+[debug] [2018-08-11T18:45:33.792Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shubham Shree\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-11T18:45:33.793Z] CLI Version:   4.0.3
+[debug] [2018-08-11T18:45:33.793Z] Platform:      win32
+[debug] [2018-08-11T18:45:33.793Z] Node Version:  v8.9.4
+[debug] [2018-08-11T18:45:33.794Z] Time:          Sun Aug 12 2018 00:15:33 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:45:33.794Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-11T18:45:33.828Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-11T18:45:33.833Z] > authorizing via signed-in user
+[debug] [2018-08-11T18:45:33.841Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pwapp-g  
+  
+ Sun Aug 12 2018 00:15:33 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:45:34.972Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T18:45:34.973Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pwapp-g/tokens  
+  
+ Sun Aug 12 2018 00:15:34 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:45:36.007Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T18:45:36.010Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwapp-g  
+  
+ Sun Aug 12 2018 00:15:36 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:45:41.304Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Shubham Shree\Documents\your-first-pwapp-master\docs'...
+[info] 
+[debug] [2018-08-11T18:45:41.309Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/109533247536/clients/_:getWebAppConfig  
+  
+ Sun Aug 12 2018 00:15:41 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:45:42.942Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: docs
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-08-11T18:47:21.982Z] ----------------------------------------------------------------------
+[debug] [2018-08-11T18:47:21.982Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shubham Shree\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-11T18:47:21.985Z] CLI Version:   4.0.3
+[debug] [2018-08-11T18:47:21.985Z] Platform:      win32
+[debug] [2018-08-11T18:47:21.985Z] Node Version:  v8.9.4
+[debug] [2018-08-11T18:47:21.985Z] Time:          Sun Aug 12 2018 00:17:21 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:47:21.985Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-11T18:47:21.998Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-11T18:47:22.000Z] > authorizing via signed-in user
+[debug] [2018-08-11T18:47:22.003Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pwapp-g  
+  
+ Sun Aug 12 2018 00:17:22 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:47:23.891Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T18:47:23.891Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pwapp-g/tokens  
+  
+ Sun Aug 12 2018 00:17:23 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:47:24.831Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T18:47:24.833Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwapp-g  
+  
+ Sun Aug 12 2018 00:17:24 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:47:26.798Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Shubham Shree\Documents\your-first-pwapp-master\docs'...
+[info] 
+[debug] [2018-08-11T18:47:26.802Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/109533247536/clients/_:getWebAppConfig  
+  
+ Sun Aug 12 2018 00:17:26 GMT+0530 (India Standard Time)
+[debug] [2018-08-11T18:47:27.977Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: **
+[info] +  hosting: Local server: http://localhost:5000
+
