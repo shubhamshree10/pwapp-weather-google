@@ -1,3 +1,6 @@
+{
+  navigateFallbackWhitelist: [/^(?!\/__).*/]
+}
 var dataCacheName = 'weatherData-v1';
 var cacheName = 'weatherPWA-step-6-1';
 var filesToCache = [

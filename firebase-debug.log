@@ -1,0 +1,120 @@
+[debug] [2018-08-26T13:09:10.028Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T13:09:10.033Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shubham Shree\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase --debug --only hosting deploy
+[debug] [2018-08-26T13:09:10.034Z] CLI Version:   4.2.0
+[debug] [2018-08-26T13:09:10.034Z] Platform:      win32
+[debug] [2018-08-26T13:09:10.034Z] Node Version:  v8.9.4
+[debug] [2018-08-26T13:09:10.035Z] Time:          Sun Aug 26 2018 18:39:10 GMT+0530 (India Standard Time)
+[debug] [2018-08-26T13:09:10.035Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-26T13:09:10.054Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-26T13:09:10.055Z] > authorizing via signed-in user
+[debug] [2018-08-26T13:09:10.058Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-26T13:09:10.059Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-08-26T13:09:10.313Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T13:09:10.502Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pwapp-g  
+ 
+[debug] [2018-08-26T13:09:12.234Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pwapp-g'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-08-26T13:09:12.247Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/pwapp-g/versions  
+
+[debug] [2018-08-26T13:09:14.818Z] <<< HTTP RESPONSE 200
+[info] i  hosting[pwapp-g]: beginning deploy...
+[info] i  hosting[pwapp-g]: found 28 files in docs
+[debug] [2018-08-26T13:09:14.992Z] [hosting] hash cache [ZG9jcw] stored for 28 files
+[debug] [2018-08-26T13:09:14.994Z] [hosting][hash queue][FINAL]
+[debug] [2018-08-26T13:09:14.996Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/pwapp-g/versions/6b653c594664670c:populateFiles  
+ <request body omitted>
+[info] i  hosting: adding files to version [0/28] (0%)
+[debug] [2018-08-26T13:09:17.083Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T13:09:17.090Z] [hosting][populate queue][FINAL]
+[debug] [2018-08-26T13:09:17.092Z] [hosting] uploads queued: 1
+[info] i  hosting: uploading new files [0/1] (0%)
+[info] i  hosting: uploading new files [0/1] (0%)
+[debug] [2018-08-26T13:09:21.120Z] [hosting][upload queue][FINAL]
+[info] +  hosting[pwapp-g]: file upload complete
+[debug] [2018-08-26T13:09:21.125Z] [hosting] deploy completed after 6299ms
+[debug] [2018-08-26T13:09:21.538Z] [
+  {
+    "config": {
+      "public": "docs",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "redirects": [
+        {
+          "source": "/foo",
+          "destination": "/bar",
+          "type": 301
+        },
+        {
+          "source": "/firebase/*",
+          "destination": "https://www.firebase.com",
+          "type": 302
+        }
+      ],
+      "rewrites": [
+        {
+          "source": "/docs/**",
+          "destination": "/docs/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(jpg|jpeg|gif|png)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=7200"
+            }
+          ]
+        },
+        {
+          "source": "404.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=300"
+            }
+          ]
+        }
+      ],
+      "cleanUrls": true,
+      "trailingSlash": false,
+      "site": "pwapp-g"
+    },
+    "site": "pwapp-g",
+    "version": "sites/pwapp-g/versions/6b653c594664670c"
+  }
+]
+[info] i  hosting[pwapp-g]: finalizing version...
+[debug] [2018-08-26T13:09:21.550Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/pwapp-g/versions/6b653c594664670c?updateMask=status  
+
+[debug] [2018-08-26T13:09:23.195Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T13:09:23.199Z] [hosting] finalized version for pwapp-g:
+[info] +  hosting[pwapp-g]: version finalized
+[info] i  hosting[pwapp-g]: releasing new version...
+[debug] [2018-08-26T13:09:23.207Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/pwapp-g/releases?version_name=sites/pwapp-g/versions/6b653c594664670c  
+
+[debug] [2018-08-26T13:09:24.851Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-26T13:09:24.855Z] [hosting] release:
+[info] +  hosting[pwapp-g]: release complete
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/pwapp-g/overview
+[info] Hosting URL: https://pwapp-g.firebaseapp.com
